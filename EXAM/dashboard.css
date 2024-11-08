@@ -1,0 +1,61 @@
+.dashboard-container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.dashboard-heading {
+    color: green;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.welcome-message {
+    color: green;
+}
+
+.user-panel {
+    margin: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.user-panel button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-panel button:hover{
+    background-color: red;
+}
+
+.user-panel select {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+    color: blue;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#logout {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logout:hover {
+   color:green;
+}
+
